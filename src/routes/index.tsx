@@ -6,7 +6,7 @@ export const Route = createFileRoute('/')({ component: App })
 function App() {
   return (
     <main className="">
-      <h1>Cinematch</h1>
+      <h1 className="text-primary text-3xl">Cinematch</h1>
       <p>
         CineMatch is a taste-driven film discovery app built for serious
         cinephiles. Tell it how you feel tonight, pick the films that shaped
